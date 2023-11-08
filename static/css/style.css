@@ -1,0 +1,114 @@
+.font {
+     font-family: 'Poppins', sans-serif;
+}
+
+.section1 {
+     width: 100%;
+     height: 100vh;
+     background-image: url(/static/images/Group34.png);
+     background-position: top;
+}
+
+.logoimg {
+
+     width: 182px;
+     height: 49px;
+     margin-left: 13vh;
+     /* margin-right: 20vh; */
+}
+
+.navbar-nav {
+     margin-top: 19px;
+     gap: 2rem;
+     align-items: end;
+
+}
+
+.grp4 {
+     position: absolute;
+     height: 95vh;
+     width: 85vh;
+     margin-top: 3vh;
+     margin-left: 0vh;
+}
+
+.section2 {
+     width: 100%;
+     height: 130vh;
+}
+
+.section3 {
+     width: 100%;
+     height: 130vh;
+}
+
+.section4 {
+     width: 100%;
+     height: 130vh;
+}
+
+.section5 {
+     width: 100%;
+     height: 50vh;
+}
+
+.footer {
+     height: 34vh;
+}
+
+@media screen and (max-width:1000px) {
+
+     .grp4 {
+          width: 90vh;
+          height: 100vh;
+     }
+
+     .grp5 {
+          margin-top: 20vh;
+          width: 80vh;
+          height: 100vh;
+
+     }
+
+     .grp6 {
+          display: none;
+     }
+
+     .section1 {
+          width: 100vh;
+          height: 140vh;
+     }
+
+     .section2 {
+          width: 100%;
+          height: 130vh;
+     }
+
+     .grp1 {
+          display: none;
+     }
+
+     .section3 {
+          margin-top: 120vh;
+          height: 150vh;
+          width: 100vh;
+     }
+
+     .section4 {
+          /* margin-top: -10vh; */
+          width: 100vh;
+          height: 150vh;
+     }
+
+     .section5 {
+          margin-top:-45vh;
+          width: 100vh;
+          height: 40vh;
+     }
+
+     .footer {
+          height: 5vh;
+          width: 100vh;
+     }
+
+}
